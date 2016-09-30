@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = "MjI3NDQwMjkwNjk1MzQ4MjI0.Cs9sKQ.EpQv8mFINF5aS3lUAii7FcicKL0"
+const token = "ok"
 const prefix = "Troy "
 const AdminID = '199562922383507457'
 const dankdom = Math.floor((Math.random() * 999999999) + 100);
