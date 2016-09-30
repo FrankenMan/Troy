@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = "Hughmungus"
+const token = "MjI3NDQwMjkwNjk1MzQ4MjI0.Cs9sKQ.EpQv8mFINF5aS3lUAii7FcicKL0"
 const prefix = "Troy "
 const AdminID = '199562922383507457'
 const dankdom = Math.floor((Math.random() * 999999999) + 100);
@@ -51,15 +51,7 @@ const commands = {
         message.channel.sendMessage(koolquotes[dannkdom]).then(() => process.exit(0))
     },
     "search": (message) => {
-        let suffix = message.content.split(" ")[0].substring(1)
-        let search = message.content.substring(suffix.length+2)
-        if (search.length == 0) return message.reply("You must specify what you want to search dinkit!!!")
-        try {
-        message.channel.sendMessage("`Searching...`")
-        }
-        catch(err) {
-            message.reply("ur search failed or something. Error code: 1337")
-        }
+    message.reply("Search failed! Use the `Troy support` command and tell FrankenMan you got error code: "+dankdom)
     },
     "say": (message) => {
         message.reply("Did your keyboard quit it's job or something")
