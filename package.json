@@ -1,0 +1,14 @@
+{
+  "name": "troy",
+  "version": "6.9.0",
+  "description": "flabber",
+  "main": "Troy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FrankenMan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "github:hydrabolt/discord.js#indev"
+  }
+}
