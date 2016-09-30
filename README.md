@@ -2,6 +2,7 @@
 Troy is a discord bot built by FrankenMan
 # Commands
 *The bot's prefix is `Troy`*
+
 `ping` Your everyday ping command
 
 `myid` Have Troy fetch your user id!
